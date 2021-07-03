@@ -1,0 +1,66 @@
+.left,.right
+     {
+      height: 100%;
+      width: 50% ;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      overflow-x: hidden;
+      padding: 20px;
+      
+   }
+   body{
+      font-family: Century Gothic;
+   }
+
+   .left {
+      left: 0;
+   }
+   
+   table{
+       border-collapse:collapse;
+       width: 100%;
+   }
+   th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;    
+    }
+    th{
+       background-color:midnightblue;
+       color: mintcream;
+    }
+    td{
+       background-color:lightsteelblue;
+       color: midnightblue;
+    }
+   .right {
+      right: 0;
+      align-items: center;     
+   }
+ 
+   button,input[type=submit]{
+      border-radius: 5px;
+      padding: 10px;
+      text-align: center;
+      background-color: midnightblue;
+      color: mintcream;
+      width: 100px;
+      font-family: Century Gothic;
+   }
+
+   button:hover{
+      background-color: grey;
+   }
+
+   input[type=text] {
+      width: 50%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      background-color: lightsteelblue;
+    }
+    
